@@ -1,9 +1,6 @@
 import styled from "@emotion/styled";
 import { useQueryIdChecker } from "../../../../commons/hooks/customs/useQueryIdChecker";
-import {
-  FETCH_BOARD_FRAGMENTS,
-  useQueryFetchBoard,
-} from "../../../../commons/hooks/queries/useQueryFetchBoard";
+import { useQueryFetchBoard } from "../../../../commons/hooks/queries/useQueryFetchBoard";
 import BoardDetailBodyBottom from "./bottom/BoardDetailBodyBottom.index";
 import BoardDetailBodyMiddle from "./middle/BoardDetailBodyMiddle.index";
 import BoardDetailBodyTop from "./top/BoardDetailBodyTop.index";
@@ -21,14 +18,9 @@ const CardWrapper = styled.div`
   box-shadow: 0px 0px 10px gray;
 `;
 
-const fragments: typeof FETCH_BOARD_FRAGMENTS = {
-  ...FETCH_BOARD_FRAGMENTS,
-  BOARD_IMAGES: true,
-};
-
 export default function BoardDetailBody() {
   const { id } = useQueryIdChecker("boardId");
-  const { data } = useQueryFetchBoard({ boardId: id }, fragments);
+  const { data } = useQueryFetchBoard({ boardId: id });
 
   return (
     <CardWrapper>
