@@ -11,7 +11,7 @@ interface IApolloSettingProps {
 }
 export default function ApolloSetting(props: IApolloSettingProps) {
   const uploadLink = createUploadLink({
-    uri: "http://backend10.codebootcamp.co.kr/graphql",
+    uri: "http://backend-practice.codebootcamp.co.kr/graphql",
   });
 
   const client = new ApolloClient({
