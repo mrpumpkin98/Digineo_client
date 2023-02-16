@@ -19,7 +19,7 @@ export const useSearchbar = (args: IUseSearchbarArgs) => {
     void args.refetch({ search: value, page: 1 });
     void args.refetchBoardsCount({ search: value });
     setKeyword(value);
-  }, 1000);
+  }, 500);
 
   const onChangeSearchbar = (event: ChangeEvent<HTMLInputElement>) => {
     getDebounce(event.target.value);
