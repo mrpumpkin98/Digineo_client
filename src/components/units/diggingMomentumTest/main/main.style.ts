@@ -54,6 +54,7 @@ export const TestButton = styled.button`
   text-align: start;
   cursor: pointer;
   height: 100px;
+  border-radius: 4px;
 `;
 
 export const ProgressBar = styled.div`

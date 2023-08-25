@@ -24,15 +24,7 @@ export default function CollectibleTypePage() {
     setRelationalTypeState(0);
     setCollectibleTypeState(0);
     router.push("/");
-    setShouldReload(true);
   };
-
-  useEffect(() => {
-    if (shouldReload) {
-      setShouldReload(false);
-      window.location.reload();
-    }
-  }, [shouldReload]);
 
   useEffect(() => {
     const loadingTimer = setTimeout(() => {

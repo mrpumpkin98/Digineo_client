@@ -20,7 +20,10 @@ export const Title = styled.h1`
   margin-bottom: 10px;
 `;
 
-export const TitleText = styled.p``;
+export const TitleText = styled.p`
+  font-size: 18px;
+  color: #1285ff;
+`;
 
 export const Img = styled.img``;
 
@@ -28,6 +31,7 @@ export const contentsBox = styled.div`
   padding: 0px 20px;
   margin-top: 30px;
   margin-bottom: 80px;
+  font-size: 18px;
 `;
 
 export const Maincontents = styled.p`
@@ -83,4 +87,8 @@ export const Logo = styled.img`
 
 export const LogoText = styled.p`
   margin-bottom: 30%;
+`;
+
+export const Text = styled.p`
+  font-size: 18px;
 `;
