@@ -10,19 +10,7 @@ import {
 } from "../../../../commons/stores";
 
 type SectionProgress = {
-  main: number;
-  Q1: number;
-  Q2: number;
-  Q3: number;
-  Q4: number;
-  Q5: number;
-  Q6: number;
-  Q7: number;
-  Q8: number;
-  Q9: number;
-  Q10: number;
-  Q11: number;
-  Q12: number;
+  [key: string]: number;
 };
 
 // conceptType
@@ -216,7 +204,7 @@ export default function MainPage() {
           <></>
         ) : (
           <S.ProgressBar>
-            <S.Progress progress={sectionProgress.Q1 - 1 || 0} />
+            <S.Progress progress={sectionProgress[section] - 1 || 0} />
           </S.ProgressBar>
         )}
 
