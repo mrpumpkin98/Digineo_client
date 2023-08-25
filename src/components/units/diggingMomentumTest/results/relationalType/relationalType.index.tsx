@@ -106,6 +106,8 @@ export default function ConceptTypePage() {
           <S.Again onClick={resetAndNavigate}>다시하기</S.Again>
         </S.contentsBox>
         <S.Button>더 알아보기</S.Button>
+        <S.Logo src="/images/logo.png" alt="" />
+        <S.LogoText>Digineo</S.LogoText>
       </S.Box>
     </S.Wrapper>
   );

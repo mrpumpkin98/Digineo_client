@@ -74,3 +74,15 @@ export const Progress = styled.div<ProgressProps>`
   width: ${(props) => (props.progress / 12) * 100}%;
   transition: width 0.3s ease-in-out;
 `;
+
+export const Logo = styled.img`
+  width: 60px;
+  margin-top: 30%;
+`;
+
+export const LogoText = styled.p``;
+
+export const Question = styled.p`
+  font-size: 27px;
+  color: #1285ff;
+`;

@@ -77,3 +77,11 @@ export const LoadingText = styled.p`
   font-weight: bold;
   color: #333;
 `;
+
+export const Logo = styled.img`
+  width: 60px;
+`;
+
+export const LogoText = styled.p`
+  margin-bottom: 30%;
+`;

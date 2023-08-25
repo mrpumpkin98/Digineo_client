@@ -203,9 +203,11 @@ export default function MainPage() {
         {section === "main" ? (
           <></>
         ) : (
-          <S.ProgressBar>
-            <S.Progress progress={sectionProgress[section] - 1 || 0} />
-          </S.ProgressBar>
+          <>
+            <S.ProgressBar>
+              <S.Progress progress={sectionProgress[section] - 1 || 0} />
+            </S.ProgressBar>
+          </>
         )}
 
         {section === "main" ? (
@@ -214,9 +216,12 @@ export default function MainPage() {
             <MainDescription />
             <S.Img src="/images/main.png" />
             <S.MainButton onClick={onClickStart}>시작하기</S.MainButton>
+            <S.Logo src="/images/logo.png" alt="" />
+            <S.LogoText>Digineo</S.LogoText>
           </>
         ) : section === "Q1" ? (
           <>
+            <S.Question>Q1</S.Question>
             <S.Title>새로운 취미를 시작하려고 할 때</S.Title>
             <S.TestButton onClick={onClickQ1_conceptType}>
               관심 있는 주제에 대해 인터넷 검색을 하거나 책을 읽는다
@@ -224,9 +229,12 @@ export default function MainPage() {
             <S.TestButton onClick={onClickQ1_relationalType}>
               친구나 지인한테 추천을 받거나 인기 있는 취미를 따라해본다
             </S.TestButton>
+            <S.Logo src="/images/logo.png" alt="" />
+            <S.LogoText>Digineo</S.LogoText>
           </>
         ) : section === "Q2" ? (
           <>
+            <S.Question>Q2</S.Question>
             <S.Title>
               좋아하는 콘텐츠
               <br />
@@ -238,9 +246,12 @@ export default function MainPage() {
             <S.TestButton onClick={onClickQ2_relationalType}>
               콘텐츠에 대한 리뷰나 팬아트, 팬픽션 등을 쓰거나 보고 싶다
             </S.TestButton>
+            <S.Logo src="/images/logo.png" alt="" />
+            <S.LogoText>Digineo</S.LogoText>
           </>
         ) : section === "Q3" ? (
           <>
+            <S.Question>Q3</S.Question>
             <S.Title>좋은 음악을 발견!!</S.Title>
             <S.TestButton onClick={onClickQ3_conceptType}>
               음악의 가사나 작곡가, 아티스트의 이야기 등을 알아본다
@@ -249,9 +260,12 @@ export default function MainPage() {
               음악을 듣는 분위기나 감정을 공유할 수 있는 사람들하고 얘기하고
               싶다
             </S.TestButton>
+            <S.Logo src="/images/logo.png" alt="" />
+            <S.LogoText>Digineo</S.LogoText>
           </>
         ) : section === "Q4" ? (
           <>
+            <S.Question>Q4</S.Question>
             <S.Title>
               오랜만에 재미있는 게임을
               <br />
@@ -263,9 +277,12 @@ export default function MainPage() {
             <S.TestButton onClick={onClickQ4_collectibleType}>
               게임의 아이템이나 업적, 순위 등을 모으거나 자랑하고 싶다
             </S.TestButton>
+            <S.Logo src="/images/logo.png" alt="" />
+            <S.LogoText>Digineo</S.LogoText>
           </>
         ) : section === "Q5" ? (
           <>
+            <S.Question>Q5</S.Question>
             <S.Title>새로운 지식을 습득하려고 할 때, 나의 방식은</S.Title>
             <S.TestButton onClick={onClickQ5_conceptType}>
               해당 분야의 전문 서적이나 강의를 통해 체계적으로 학습
@@ -273,9 +290,12 @@ export default function MainPage() {
             <S.TestButton onClick={onClickQ5_relationalType}>
               지인들과 토론하거나 관련 주제에 대한 블로그나 포럼을 찾는다
             </S.TestButton>
+            <S.Logo src="/images/logo.png" alt="" />
+            <S.LogoText>Digineo</S.LogoText>
           </>
         ) : section === "Q6" ? (
           <>
+            <S.Question>Q6</S.Question>
             <S.Title>여행지를 방문했다</S.Title>
             <S.TestButton onClick={onClickQ6_conceptType}>
               그 지역의 역사, 문화, 음식 등에 대해 사전 조사를 하고 계획을 세워
@@ -285,9 +305,12 @@ export default function MainPage() {
               현지 주민들과 소통하며 그들의 일상과 관점을 이해하고 그들과 함께
               경험을 나눈다
             </S.TestButton>
+            <S.Logo src="/images/logo.png" alt="" />
+            <S.LogoText>Digineo</S.LogoText>
           </>
         ) : section === "Q7" ? (
           <>
+            <S.Question>Q7</S.Question>
             <S.Title>내가 취미로 선택한 활동의 목적</S.Title>
             <S.TestButton onClick={onClickQ7_conceptType}>
               자기 지식과 실력 키우고 과시하고 싶어서
@@ -295,9 +318,12 @@ export default function MainPage() {
             <S.TestButton onClick={onClickQ7_collectibleType}>
               자기 소유욕과 만족감을 충족시키고 소장가치를 높이고 싶어서
             </S.TestButton>
+            <S.Logo src="/images/logo.png" alt="" />
+            <S.LogoText>Digineo</S.LogoText>
           </>
         ) : section === "Q8" ? (
           <>
+            <S.Question>Q8</S.Question>
             <S.Title>
               내가 자주 참여하는 이벤트나
               <br />
@@ -310,9 +336,12 @@ export default function MainPage() {
               이벤트나 모임에서 얻은 아이템이나 기념품, 그 경험을 기억하며
               느끼는 만족감
             </S.TestButton>
+            <S.Logo src="/images/logo.png" alt="" />
+            <S.LogoText>Digineo</S.LogoText>
           </>
         ) : section === "Q9" ? (
           <>
+            <S.Question>Q9</S.Question>
             <S.Title>내가 더 선호하는 것은</S.Title>
             <S.TestButton onClick={onClickQ9_conceptType}>
               독창적인 것
@@ -320,9 +349,12 @@ export default function MainPage() {
             <S.TestButton onClick={onClickQ9_collectibleType}>
               현실적인 것
             </S.TestButton>
+            <S.Logo src="/images/logo.png" alt="" />
+            <S.LogoText>Digineo</S.LogoText>
           </>
         ) : section === "Q10" ? (
           <>
+            <S.Question>10</S.Question>
             <S.Title>내가 취미로 선택한 활동의 단점</S.Title>
             <S.TestButton onClick={onClick10_collectibleType}>
               돈과 공간이 많이 필요하고, 낭비하거나 부담스러울 수 있어
@@ -330,9 +362,12 @@ export default function MainPage() {
             <S.TestButton onClick={onClick10_conceptType}>
               혼자서만 할 수 있고, 외롭거나 소외되거나 할 수 있어
             </S.TestButton>
+            <S.Logo src="/images/logo.png" alt="" />
+            <S.LogoText>Digineo</S.LogoText>
           </>
         ) : section === "Q11" ? (
           <>
+            <S.Question>11</S.Question>
             <S.Title>
               흥미 있는 분야의 공연이나
               <br />
@@ -345,10 +380,13 @@ export default function MainPage() {
               주변 사람들과 함께 참석하여 공연 후에 느낀 감정과 인상을 나누려
               한다
             </S.TestButton>
+            <S.Logo src="/images/logo.png" alt="" />
+            <S.LogoText>Digineo</S.LogoText>
           </>
         ) : (
           section === "Q12" && (
             <>
+              <S.Question>12</S.Question>
               <S.Title>물건을 구매할 때, 나의 스타일은</S.Title>
               <S.TestButton onClick={onClick12_relationalType}>
                 구매하기 전에 신중하게 비교 분석하여 실제 필요한 것만 구매
@@ -357,6 +395,8 @@ export default function MainPage() {
                 다양한 제품 중에서 관심 있는 것이나 디자인이 마음에 드는 것들을
                 수집
               </S.TestButton>
+              <S.Logo src="/images/logo.png" alt="" />
+              <S.LogoText>Digineo</S.LogoText>
             </>
           )
         )}
