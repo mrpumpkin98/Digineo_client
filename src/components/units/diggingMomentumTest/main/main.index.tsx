@@ -354,7 +354,7 @@ export default function MainPage() {
           </>
         ) : section === "Q10" ? (
           <>
-            <S.Question>10</S.Question>
+            <S.Question>Q10</S.Question>
             <S.Title>내가 취미로 선택한 활동의 단점</S.Title>
             <S.TestButton onClick={onClick10_collectibleType}>
               돈과 공간이 많이 필요하고, 낭비하거나 부담스러울 수 있어
@@ -367,7 +367,7 @@ export default function MainPage() {
           </>
         ) : section === "Q11" ? (
           <>
-            <S.Question>11</S.Question>
+            <S.Question>Q11</S.Question>
             <S.Title>
               흥미 있는 분야의 공연이나
               <br />
@@ -386,7 +386,7 @@ export default function MainPage() {
         ) : (
           section === "Q12" && (
             <>
-              <S.Question>12</S.Question>
+              <S.Question>Q12</S.Question>
               <S.Title>물건을 구매할 때, 나의 스타일은</S.Title>
               <S.TestButton onClick={onClick12_relationalType}>
                 구매하기 전에 신중하게 비교 분석하여 실제 필요한 것만 구매
