@@ -8,6 +8,7 @@ import {
 } from "../../../../../commons/stores";
 import { useEffect, useState } from "react";
 import { PulseLoader } from "react-spinners";
+import { Modal } from "antd";
 
 export default function CollectibleTypePage() {
   const [shouldReload, setShouldReload] = useState(false);
@@ -40,6 +41,14 @@ export default function CollectibleTypePage() {
       </S.LoadingContainer>
     );
   }
+
+  const openModal = () => {
+    Modal.info({
+      title: "알림",
+      content: "추후 업데이트 예정입니다",
+      centered: true,
+    });
+  };
 
   return (
     <S.Wrapper>
@@ -125,7 +134,7 @@ export default function CollectibleTypePage() {
           </S.contents>
           <S.Again onClick={resetAndNavigate}>다시하기</S.Again>
         </S.contentsBox>
-        <S.Button>더 알아보기</S.Button>
+        <S.Button onClick={openModal}>더 알아보기</S.Button>
         <S.Logo src="/images/logo.png" alt="" />
         <S.LogoText>Digineo</S.LogoText>
       </S.Box>
