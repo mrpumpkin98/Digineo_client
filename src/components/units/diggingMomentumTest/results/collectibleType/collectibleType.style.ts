@@ -57,8 +57,8 @@ export const Button = styled.button`
   cursor: pointer;
   position: fixed;
   bottom: 2vh;
-  left: 50%; /* 화면 가운데로 위치 */
-  transform: translateX(-50%); /* 가운데 정렬을 위한 조정 */
+  left: 50%;
+  transform: translateX(-50%);
 `;
 
 export const Again = styled.p`

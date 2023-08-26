@@ -56,33 +56,58 @@ export default function CollectibleTypePage() {
           <S.contentsTitle>세부특징</S.contentsTitle>
           <S.contents>
             <p>
-              <span style={{ fontWeight: "700" }}>탐구적인 성향 : </span>새로운
-              아이디어나 주제에 대해 깊이 있게 탐구하고, 컨셉을 구체화하는 것을
-              좋아합니다. 자신만의 관심 분야에 대해 꾸준한 학습과 연구를 통해
-              전문성을 갖추려 노력합니다.
+              <span style={{ fontWeight: "700" }}>탐구적인 성향</span>
+              <br />
+              <br />
+              새로운 아이디어나 주제에 대해 깊이 있게 탐구하고, 컨셉을
+              구체화하는 것을 좋아합니다. 자신만의 관심 분야에 대해 꾸준한
+              학습과 연구를 통해 전문성을 갖추려 노력합니다.
+              <br />
+              <br />
+              <br />
             </p>
             <p>
-              <span style={{ fontWeight: "700" }}>창의적인 표현 : </span>
+              <span style={{ fontWeight: "700" }}>창의적인 표현</span>
+              <br />
+              <br />
               자신의 관심사나 컨셉을 다양한 방식으로 표현하고 싶어합니다. 그림,
               글쓰기, 디자인 등 다양한 매체를 활용하여 자신의 아이디어를
               구체화하고 나타냅니다.
+              <br />
+              <br />
+              <br />
             </p>
             <p>
-              <span style={{ fontWeight: "700" }}>자기만의 공간 구축 : </span>
+              <span style={{ fontWeight: "700" }}>자기만의 공간 구축</span>
+              <br />
+              <br />
               컨셉에 따라 자신만의 공간을 꾸미는 것을 즐깁니다. 방, 집, 작업
               공간 등을 자신의 취향과 아이디어에 맞게 꾸미며, 그곳에서 편안함과
               창의력을 느낍니다.
+              <br />
+              <br />
+              <br />
             </p>
             <p>
-              <span style={{ fontWeight: "700" }}>사유와 분석 : </span>주변의
-              사물이나 경험을 분석하며 컨셉과 연결시키려고 합니다. 자신의
+              <span style={{ fontWeight: "700" }}>사유와 분석</span>
+              <br />
+              <br />
+              주변의 사물이나 경험을 분석하며 컨셉과 연결시키려고 합니다. 자신의
               관심사와 현실 사이에서 의미 있는 연결점을 찾아내는 것을 즐깁니다.
+              <br />
+              <br />
+              <br />
             </p>
             <p>
-              <span style={{ fontWeight: "700" }}>휴식과 탈출 : </span>자신의
-              컨셉을 바탕으로 하는 활동을 통해 일상에서 벗어나고 휴식을
+              <span style={{ fontWeight: "700" }}>휴식과 탈출</span>
+              <br />
+              <br />
+              자신의 컨셉을 바탕으로 하는 활동을 통해 일상에서 벗어나고 휴식을
               취합니다. 자신만의 세계에서 활동하면서 스트레스를 해소하고 새로운
               에너지를 얻는 것을 중요하게 여깁니다.
+              <br />
+              <br />
+              <br />
             </p>
           </S.contents>
           <S.contentsTitle>나랑 잘 맞는 취미</S.contentsTitle>

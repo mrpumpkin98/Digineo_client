@@ -15,7 +15,9 @@ export const Box = styled.div`
   padding: 15vh 15px 0vh 15px;
 `;
 
-export const MainTitle = styled.h1``;
+export const MainTitle = styled.h1`
+  font-size: 30px;
+`;
 
 export const Title = styled.h1`
   width: 100%;

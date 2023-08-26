@@ -55,28 +55,48 @@ export default function ConceptTypePage() {
           <S.contentsTitle>세부특징</S.contentsTitle>
           <S.contents>
             <p>
-              <span style={{ fontWeight: "700" }}>사회적 교류 중심 : </span>
+              <span style={{ fontWeight: "700" }}>사회적 교류 중심</span>
+              <br />
+              <br />
               당신은 자신과 비슷한 취향을 가진 사람들과 만나는 것을 즐깁니다.
               다양한 사람들과의 교류를 통해 새로운 인연을 만들며, 그들과의
               대화를 통해 친밀감을 형성하고 깊게 어울릴 수 있습니다.
+              <br />
+              <br />
+              <br />
             </p>
             <p>
-              <span style={{ fontWeight: "700" }}>감정 및 의견 공유 : </span>
+              <span style={{ fontWeight: "700" }}>감정 및 의견 공유</span>
+              <br />
+              <br />
               서로의 감정과 의견을 공유하며 대화하는 것을 중요하게 여깁니다.
               자신의 생각과 관점을 나누며 타인의 관점을 듣는 것을 즐기며, 이를
               통해 자신의 취미나 관심사를 더욱 풍부하게 발전시키려고 노력합니다.
+              <br />
+              <br />
+              <br />
             </p>
             <p>
-              <span style={{ fontWeight: "700" }}>친밀감 형성 : </span>
+              <span style={{ fontWeight: "700" }}>친밀감 형성</span>
+              <br />
+              <br />
               자신의 취미나 관심사를 기반으로 다양한 사람들과의 교류를 통해
               친밀한 인간관계를 형성하고 유지하는 것이 중요하다고 여깁니다.
               취미를 통한 소통을 통해 친구를 사귀고, 사회적 네트워크를 확장하며
               다양한 인연을 만듭니다.
+              <br />
+              <br />
+              <br />
             </p>
             <p>
-              <span style={{ fontWeight: "700" }}>사유와 분석 : </span>주변의
-              사물이나 경험을 분석하며 컨셉과 연결시키려고 합니다. 자신의
+              <span style={{ fontWeight: "700" }}>사유와 분석</span>
+              <br />
+              <br />
+              주변의 사물이나 경험을 분석하며 컨셉과 연결시키려고 합니다. 자신의
               관심사와 현실 사이에서 의미 있는 연결점을 찾아내는 것을 즐깁니다.
+              <br />
+              <br />
+              <br />
             </p>
           </S.contents>
           <S.contentsTitle>나랑 잘 맞는 취미</S.contentsTitle>
