@@ -1,8 +1,13 @@
 # 🤖 경기콘텐츠진흥원 해커톤 대상 🏆
 
   <details>
-    <summary>수상 사진</summary>
+    <summary>대상 수상</summary>
     <img width="800px" src='https://github.com/pie-sfac/1-16-careMango/assets/114569429/a1de3523-739e-42d7-bc87-f084887c7241' />
+  </details>
+
+  <details>
+    <summary>수료증</summary>
+    <img width="800px" src='https://github.com/pie-sfac/4-19-19px/assets/114569429/072c84fc-a150-4311-90b5-c0c7587edeba' />
   </details>
 
  <br />
